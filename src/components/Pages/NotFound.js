@@ -1,11 +1,12 @@
 import React from 'react';
+import img404 from '../../static/404.png'
 
 class NotFound extends React.Component {
   render() {
     return (
       <div>
-        <h1>Page Not Found</h1>
-        <p>Nothing here.</p>
+        <br />
+        <img src={img404} />
       </div>
     );
   }

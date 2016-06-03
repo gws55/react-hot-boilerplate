@@ -1,11 +1,11 @@
 import React from 'react';
 import { Router, browserHistory } from 'react-router';
-import routes from './routes';
+import Routes from './Routes';
 
 class App extends React.Component {
   render() {
     return (
-      <Router history={browserHistory} routes={routes} />
+      <Router history={browserHistory} routes={Routes} />
     );
   }
 }

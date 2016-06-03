@@ -15,7 +15,7 @@ class Header extends React.Component {
     return (
       <header className="mdl-layout__header" ref="root">
         <div className="mdl-layout__header-row">
-          <span className="mdl-layout-title">React Hot Boilerplate.</span>
+          <span className="mdl-layout-title">React Hot Boilerplate</span>
           <div className="mdl-layout-spacer"></div>
           <Navigation />
         </div>

@@ -1,0 +1,6 @@
+dialog {
+  top: 35%;
+  left: 0%;
+  position: absolute;
+  z-index: 99;
+}
