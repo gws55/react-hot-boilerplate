@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Boilerplate for ReactJS project with hot code reloading",
   "scripts": {
-    "start": "node server.js",
+    "start": "node tools/server.js",
     "eslint": "eslint src components",
     "stylelint": "stylelint \"components/**/*.css\"",
     "lint": "npm run eslint && npm run stylelint"
